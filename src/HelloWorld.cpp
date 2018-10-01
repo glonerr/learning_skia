@@ -30,7 +30,7 @@ HelloWorld::HelloWorld(int argc, char** argv, void* platformData)
     fWindow->pushLayer(this);
 
     fWindow->attach(fBackendType);
-    bitmap = SkBitmap.decode();
+    // bitmap = SkBitmap.decode();
 }
 
 HelloWorld::~HelloWorld() {
@@ -74,7 +74,7 @@ void HelloWorld::onPaint(SkCanvas* canvas) {
         paint.setAntiAlias(true);
 
         canvas->drawCircle(200, 200, 64, paint);
-        canvas->drawBitmap();
+        // canvas->drawBitmap();
         // Detach shader
         paint.setShader(nullptr);
     }

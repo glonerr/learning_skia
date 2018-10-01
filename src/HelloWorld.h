@@ -31,7 +31,7 @@ private:
     sk_app::Window::BackendType fBackendType;
 
     SkScalar fRotationAngle;
-    SkBitmap* bitmap;
+    // SkBitmap* bitmap;
 };
 
 #endif
